@@ -1,0 +1,27 @@
+# Enunciado:
+# Documentación automatizada con tipado estático (typing), mkdocstrings y
+# docstrings en formato Google.
+#
+# El plugin "mkdocstrings" puede mostrar automáticamente, junto a cada
+# función o método documentado, las anotaciones de tipo (type hints) de su
+# firma. Para ello es necesario activar explícitamente esa opción en la
+# configuración del "handler" de Python.
+#
+# Tu tarea es completar la sección "options" del handler "python" para
+# que:
+# 1. Se indique que los docstrings del proyecto están escritos en formato
+#    Google (clave "docstring_style").
+# 2. Se muestren las anotaciones de tipo de parámetros y valor de retorno
+#    en la documentación generada (clave "show_signature_annotations").
+
+site_name: Mi Proyecto Documentado
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          # TODO: completa la clave "options" con "docstring_style: google"
+          # y "show_signature_annotations: true".
+          options: {}

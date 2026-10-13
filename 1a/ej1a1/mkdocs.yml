@@ -1,0 +1,22 @@
+# Enunciado:
+# Configuración del menú de navegación global (nav) en el archivo mkdocs.yml.
+#
+# A continuación tienes un archivo de configuración de MkDocs incompleto.
+# Tu tarea es completar la clave "nav" para que el menú de navegación global
+# del sitio incluya, en este orden, las siguientes páginas:
+#   1. "Inicio"             -> index.md
+#   2. "Instalación"        -> instalacion.md
+#   3. "Referencia de la API" -> api.md
+#   4. "Despliegue"         -> despliegue.md
+#
+# Recuerda que en MkDocs el "nav" es una lista donde cada elemento es un
+# diccionario de una sola clave: el título que se mostrará en el menú, y
+# como valor la ruta (relativa a la carpeta docs/) del archivo Markdown.
+#
+# Consulta "__init__.py" en esta misma carpeta para completar también la
+# parte en Python de este ejercicio.
+
+site_name: Mi Proyecto Documentado
+
+# TODO: completa la lista "nav" con las 4 páginas indicadas en el enunciado.
+nav: []

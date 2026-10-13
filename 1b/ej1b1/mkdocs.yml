@@ -1,0 +1,21 @@
+# Enunciado:
+# Instalación del paquete de diseño avanzado y cambio del tema por defecto.
+#
+# MkDocs usa por defecto un tema básico llamado "mkdocs". El tema
+# "Material for MkDocs" (paquete "mkdocs-material") ofrece un diseño mucho
+# más avanzado y personalizable.
+#
+# Tu tarea es:
+# 1. Añadir la dependencia "mkdocs-material" al archivo de requisitos
+#    "requirements.txt".
+# 2. Cambiar en este archivo de configuración el tema por defecto ("mkdocs")
+#    por el tema "material".
+
+site_name: Mi Proyecto Documentado
+
+# TODO: cambia el nombre del tema a "material".
+theme:
+  name: mkdocs
+#
+# Consulta también "__init__.py" en esta misma carpeta para completar la
+# parte en Python de este ejercicio.

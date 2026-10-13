@@ -1,0 +1,7 @@
+pytest
+pyyaml
+mkdocs
+mkdocs-material
+mkdocstrings[python]
+sphinx
+sphinx-rtd-theme

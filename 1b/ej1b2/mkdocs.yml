@@ -1,0 +1,23 @@
+# Enunciado:
+# Personalización de la paleta de colores y la interfaz en la configuración
+# general.
+#
+# Material for MkDocs permite personalizar la paleta de colores mediante la
+# clave "theme.palette", indicando como mínimo un color primario
+# ("primary") y un color de acento ("accent").
+#
+# Tu tarea es completar la configuración del tema añadiendo:
+# 1. Una clave "palette" dentro de "theme" con, como mínimo, las claves
+#    "primary" y "accent" (por ejemplo "indigo" y "pink").
+# 2. Una clave "features" dentro de "theme" que sea una lista e incluya la
+#    funcionalidad "navigation.tabs".
+
+site_name: Mi Proyecto Documentado
+
+theme:
+  name: material
+  # TODO: añade aquí la clave "palette" con "primary" y "accent".
+  # TODO: añade aquí la clave "features" con "navigation.tabs".
+#
+# Consulta también "__init__.py" en esta misma carpeta para completar la
+# parte en Python de este ejercicio.

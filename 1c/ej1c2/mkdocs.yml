@@ -1,0 +1,24 @@
+# Enunciado:
+# Instalación del plugin y configuración de las rutas del código fuente en
+# el archivo de configuración.
+#
+# El plugin "mkdocstrings" permite generar documentación de referencia de
+# la API automáticamente a partir de los docstrings del código fuente, como
+# los que has escrito para el paquete "ej1c1" en el ejercicio anterior.
+#
+# Tu tarea es:
+# 1. Añadir la dependencia "mkdocstrings[python]" al archivo de requisitos
+#    "requirements.txt".
+# 2. Completar en este archivo la sección "plugins" para activar
+#    "search" y "mkdocstrings", indicando en
+#    "handlers.python.paths" la ruta "src" donde se encuentra el código
+#    fuente del proyecto.
+
+site_name: Mi Proyecto Documentado
+
+# TODO: completa la lista de "plugins" con "search" y "mkdocstrings"
+# (indicando "handlers.python.paths: [src]").
+plugins: []
+#
+# Consulta también "__init__.py" en esta misma carpeta para completar la
+# parte en Python de este ejercicio.

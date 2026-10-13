@@ -1,0 +1,39 @@
+.. Enunciado:
+   Inserción de bloques de código con resaltado de sintaxis y de cajas de
+   alerta (admonitions) en reStructuredText.
+
+   Completa esta página de instalación añadiendo:
+
+   1. Un bloque de código con resaltado de sintaxis para "bash" que
+      muestre el comando para instalar las dependencias del proyecto con
+      pip, usando la directiva:
+
+          .. code-block:: bash
+
+             comando
+
+   2. Un bloque de código con resaltado de sintaxis para "python" que
+      muestre un pequeño script de ejemplo.
+   3. Una admonition de tipo "note" con información útil para el lector,
+      usando la directiva ".. note::".
+   4. Una admonition de tipo "warning" advirtiendo de algo importante,
+      usando la directiva ".. warning::".
+
+   Recuerda que, en RST, el contenido de una directiva se indenta (por
+   convención, 3 espacios) respecto a la línea de la directiva.
+
+   Consulta también "__init__.py" en esta misma carpeta para completar
+   la parte en Python de este ejercicio.
+
+Instalación
+===========
+
+TODO: añade un bloque ``.. code-block:: bash`` con el comando de
+instalación.
+
+TODO: añade un bloque ``.. code-block:: python`` con un script de
+ejemplo.
+
+TODO: añade una admonition ``.. note::`` con una nota.
+
+TODO: añade una admonition ``.. warning::`` con una advertencia.
